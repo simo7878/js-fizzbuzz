@@ -6,11 +6,20 @@
 
 
 alert('FizzBuzzTest');
-//creo le variabili
-var fz= 'Fizz';
-var bz= 'Buzz';
-var fb= 'FizzBuzz';
+
+
 //stampo i numeri da 1 a 100
-for (var i = 1; i <= 100; i++) {
+for (var i = 0; i <= 100; i++) {
   console.log(i);
+  document.getElementById('lista_numeri').innerHTML += '<li>'+ i+ '</li>';
+
+} if (i % 3 == 0 && i % 5 == 0) {
+  console.log('FizzBuzz');
+
+} else if (i % 3 == 0) {
+  console.log('Fizz');
+
+} else  if (i % 5 == 0)  {
+  console.log('Buzz');
+
 }

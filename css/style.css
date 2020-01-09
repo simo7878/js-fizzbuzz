@@ -1,0 +1,9 @@
+body {
+background-color: #9400d3;
+}
+
+#lista_numeri {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
