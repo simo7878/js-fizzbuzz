@@ -1,7 +1,17 @@
 body {
 background-color: #9400d3;
 }
-
+.container {
+  width: 100%;
+  background-color: purple;
+  border-radius: 10px;
+  box-shadow:  5px 5px 10px 2px #8a2be2;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: lightgrey;
+}
 #lista_numeri {
   list-style: none;
   color: white;
